@@ -1,0 +1,38 @@
+.header{
+
+    height:60px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    flex-wrap:inherit;
+    background-color: rgb(93, 70, 199);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header_options{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: white;
+}
+
+@media (min-width: 765px) {
+    .header_button{
+        visibility: hidden;
+        align-items: left;
+        justify-content: left;
+    }
+  }
+  @media (max-width: 765px) {
+    #nav-bar{
+        visibility: hidden;
+       
+
+    }
+  }
+  .Link{
+    text-decoration: none !important;
+  }
