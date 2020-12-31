@@ -1,17 +1,17 @@
 import styled from "styled-components";
 
 export const ProjectsContainer = styled.div`
-  height: 800px;
+  height: 900px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background: #010606;
   @media screen and (max-width: 768px) {
-    height: 1100px;
+    height: 2100px;
   }
 
   @media screen and (max-width: 480px) {
-    height: 1000px;
+    height: 2300px;
   }
 `;
 export const ProjectsWrapper = styled.div`
@@ -51,11 +51,14 @@ export const ProjectsCard = styled.div`
   }
 `;
 
-export const ProjectsIcon = styled.img`
+export const ProjectsIcon = styled.video`
   height: 160px;
-  width: 160px;
-  margin-bottom: 10px;
+  width: 200px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  margin-bottom: 0px;
 `;
+
 export const ProjectsH1 = styled.h1`
   font-size: 2.5rem;
   color: #fff;
