@@ -20,6 +20,7 @@ export const SidebarContainer = styled.aside`
 export const CloseIcon = styled(FaTimes)`
   color: #fff;
 `;
+
 export const Icon = styled.div`
   position: absolute;
   top: 1.2rem;

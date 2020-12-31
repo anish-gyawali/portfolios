@@ -34,7 +34,7 @@ const FirstSection = () => {
         <FirstP1>I am a full stack web developer</FirstP1>
         <FirstBtnWrapper>
           <Button
-            to="about"
+            to="resume"
             onMouseEnter={onHover}
             onMouseLeave={onHover}
             primary="true"
