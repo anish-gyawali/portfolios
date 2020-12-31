@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { GrFacebook, GrGithub, GrLinkedin } from "react-icons/gr";
 
 export const InfoContainer = styled.div`
   color: #fff;
@@ -30,6 +31,23 @@ export const InfoRow = styled.div`
     grid-template-areas: ${({ imgStart }) =>
       imgStart ? `'col1 col2'` : `'col1 col1' 'col2 col2'`};
   }
+`;
+export const InfoColumn = styled.div`
+  display: flex;
+  flex-direction: row;
+`;
+
+export const Facebook = styled(GrFacebook)`
+  color: blue;
+  margin-left: 1rem;
+`;
+export const Linkedin = styled(GrLinkedin)`
+  color: blue;
+  margin-left: 1rem;
+`;
+export const Github = styled(GrGithub)`
+  color: black;
+  margin-left: 1rem;
 `;
 
 export const Column1 = styled.div`
@@ -95,15 +113,13 @@ export const InfoP1 = styled.p`
   }
 `;
 
-// export const BtnWrap = styled.div`
-//   display: flex;
-//   justify-content: flex-start;
-// `;
 export const ImgWrap = styled.div`
+  border-radius: 50%;
   max-width: 555px;
   height: 100%;
 `;
 export const Img = styled.img`
+  border-radius: 50%;
   width: 100%;
   margin: 0 0 10px 0;
   padding-right: 0;
