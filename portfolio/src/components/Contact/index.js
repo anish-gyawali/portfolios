@@ -13,7 +13,7 @@ const Contact = () => {
     <>
       <ContactConatiner id="contact">
         <ContactWrapper>
-          <ContactList>Fell Free To Contact Me:</ContactList>
+          <ContactList>Feel Free To Contact Me:</ContactList>
           <ContactColumn>
             <ContactText>
               <ContactIcon size={20} />
