@@ -56,7 +56,7 @@ const InfoSection = ({
             </Column1>
             <Column2>
               <ImgWrap>
-                <Img src="https://media-exp1.licdn.com/dms/image/C4D35AQFTtZrOa1G7ng/profile-framedphoto-shrink_400_400/0/1608310370702?e=1609516800&v=beta&t=L8WXVNTAdesE2P9UAuPnOpy3RV40jf122DkGeTDvGtg" />
+                <Img src="https://media-exp1.licdn.com/dms/image/C4D35AQFTtZrOa1G7ng/profile-framedphoto-shrink_400_400/0/1608310370702?e=1611889200&v=beta&t=ULfnw5CvZ5uG1_pRScYu4lhKmzO2EgxDD0RySCMwHAo" />
               </ImgWrap>
             </Column2>
           </InfoRow>
