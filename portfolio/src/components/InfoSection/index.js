@@ -1,4 +1,5 @@
 import React from "react";
+import AnishG from "../../images/Anish.jpg";
 import {
   InfoContainer,
   InfoWrapper,
@@ -56,7 +57,7 @@ const InfoSection = ({
             </Column1>
             <Column2>
               <ImgWrap>
-                <Img src="https://media-exp1.licdn.com/dms/image/C4D35AQFTtZrOa1G7ng/profile-framedphoto-shrink_400_400/0/1608310370702?e=1611889200&v=beta&t=ULfnw5CvZ5uG1_pRScYu4lhKmzO2EgxDD0RySCMwHAo" />
+                <Img src={AnishG} />
               </ImgWrap>
             </Column2>
           </InfoRow>

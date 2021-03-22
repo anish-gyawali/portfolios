@@ -1,5 +1,5 @@
 import React from "react";
-import Anish from "../../images/Anish.PNG";
+import Anish from "../../images/resume.png";
 import { ResumeConatiner, ResumeWrapper, ImgWrap, Img } from "./ResumeElements";
 
 const Resume = () => {
