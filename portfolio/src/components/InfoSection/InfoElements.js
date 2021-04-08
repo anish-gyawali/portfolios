@@ -91,17 +91,18 @@ export const Heading = styled.h1`
 
 export const Subtitle = styled.p`
   max-width: 440px;
-  margin-bottom: 35px;
-  font-size: 18px;
+  margin-bottom: 30px;
+  font-size: 15px;
+  font-weight: bold;
   line-height: 24px;
   color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
 `;
 
 export const InfoP1 = styled.p`
-  margin-top: 24px;
+  margin-top: 20px;
   padding-bottom: 5rem;
   color: #fff;
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
   max-width: 600px;
   color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};

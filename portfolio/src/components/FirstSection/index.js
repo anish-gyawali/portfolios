@@ -31,7 +31,6 @@ const FirstSection = () => {
         <FirstP1>
           Hi, I am Anish. I am looking for internship opportunities.
         </FirstP1>
-        <FirstP1>I am a full stack web developer</FirstP1>
         <FirstBtnWrapper>
           <Button
             to="resume"
