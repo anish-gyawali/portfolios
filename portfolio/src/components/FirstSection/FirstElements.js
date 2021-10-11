@@ -80,7 +80,6 @@ export const FirstP1 = styled.p`
   font-size: 24px;
   text-align: center;
   max-width: 800px;
-
   @media screen and (max-width: 768px) {
     font-size: 24px;
   }

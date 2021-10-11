@@ -22,7 +22,7 @@ const Contact = () => {
 
             <ContactText>
               <ContactIconE size={20} />
-              {" anish.gyawali@selu.edu"}
+              {" anish.gyawali10@gmail.com"}
             </ContactText>
           </ContactColumn>
         </ContactWrapper>
