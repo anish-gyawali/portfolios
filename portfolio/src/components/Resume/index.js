@@ -7,7 +7,7 @@ const Resume = () => {
       <ResumeConatiner id="resume">
         <ResumeH1>Resume</ResumeH1>
         <iframe
-          src="https://docs.google.com/document/d/e/2PACX-1vRHbbqB4RYTW1HskqF2TmSM9RUa8G48ZsKHLgZdJrihrqS_XgET5_3RQtQrNcdsog/pub?embedded=true"
+          src="https://docs.google.com/document/d/e/2PACX-1vSh81g7jloip200fLG3DQH3t-RHMEneDhfwPWl7BNPRZHpKQFQ_etBczt2aSldFc53bU8yNVurG_b-3/pub"
           title="file"
           width="100%"
           height="600"
