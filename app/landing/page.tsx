@@ -22,6 +22,7 @@ const LandingPage: React.FC = () => {
       case "frontend":
         return [
           <Image
+            key="react"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png"
             alt="React Logo"
             width={40}
@@ -29,6 +30,7 @@ const LandingPage: React.FC = () => {
             className="w-auto h-auto"
           />,
           <Image
+            key="nextjs"
             src="https://img.icons8.com/fluent-systems-filled/512/FFFFFF/nextjs.png"
             alt="Next.js Logo"
             width={40}
@@ -36,6 +38,7 @@ const LandingPage: React.FC = () => {
             className="w-auto h-auto"
           />,
           <Image
+            key="angular"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/640px-Angular_full_color_logo.svg.png"
             alt="Angular Logo"
             width={40}
@@ -43,6 +46,7 @@ const LandingPage: React.FC = () => {
             className="w-auto h-auto"
           />,
           <Image
+            key="ionic"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ionic-logo-landscape.svg/640px-Ionic-logo-landscape.svg.png"
             alt="Ionic Logo"
             width={40}
@@ -53,6 +57,7 @@ const LandingPage: React.FC = () => {
       case "backend":
         return [
           <Image
+            key="nodejs"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/640px-Node.js_logo.svg.png"
             alt="Node.js Logo"
             width={40}
@@ -60,6 +65,7 @@ const LandingPage: React.FC = () => {
             className="w-auto h-auto"
           />,
           <Image
+            key="csharp"
             src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png?20180210215736"
             alt="C# Logo"
             width={40}
@@ -67,6 +73,7 @@ const LandingPage: React.FC = () => {
             className="w-auto h-auto"
           />,
           <Image
+            key="java"
             src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/800px-Java_programming_language_logo.svg.png"
             alt="Java Logo"
             width={40}
@@ -74,6 +81,7 @@ const LandingPage: React.FC = () => {
             className="w-auto h-auto"
           />,
           <Image
+            key="aspnet"
             src="https://www.ispirer.net/images/asp.net.logo.png"
             alt="ASP.NET Logo"
             width={40}
@@ -81,6 +89,7 @@ const LandingPage: React.FC = () => {
             className="w-auto h-auto"
           />,
           <Image
+            key="springboot"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Spring_boot.jpg/640px-Spring_boot.jpg"
             alt="Spring Boot Logo"
             width={40}
@@ -91,6 +100,7 @@ const LandingPage: React.FC = () => {
       case "databases":
         return [
           <Image
+            key="sqlserver"
             src="https://upload.wikimedia.org/wikipedia/commons/6/69/Microsoft_SQL_Server_Logo.png?20080623103336"
             alt="SQL server Logo"
             width={40}
@@ -98,6 +108,7 @@ const LandingPage: React.FC = () => {
             className="w-auto h-auto"
           />,
           <Image
+            key="mongodb"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Mongodb-svgrepo-com.svg/640px-Mongodb-svgrepo-com.svg.png"
             alt="MongoDB Logo"
             width={40}
@@ -105,6 +116,7 @@ const LandingPage: React.FC = () => {
             className="w-auto h-auto"
           />,
           <Image
+            key="oracle"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Oracle_logo.svg/640px-Oracle_logo.svg.png"
             alt="Oracle Logo"
             width={40}
@@ -112,6 +124,7 @@ const LandingPage: React.FC = () => {
             className="w-auto h-auto"
           />,
           <Image
+            key="sybase"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Sybase_logo_full.svg/640px-Sybase_logo_full.svg.png"
             alt="Sybase Logo"
             width={40}
@@ -122,6 +135,7 @@ const LandingPage: React.FC = () => {
       case "cloud":
         return [
           <Image
+            key="azure"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Microsoft_Azure_Logo.svg/1280px-Microsoft_Azure_Logo.svg.png"
             alt="Azure Logo"
             className="w-auto h-auto"
@@ -129,6 +143,7 @@ const LandingPage: React.FC = () => {
             height={40}
           />,
           <Image
+            key="aws"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1280px-Amazon_Web_Services_Logo.svg.png"
             alt="AWS Logo"
             className="w-auto h-auto"
@@ -136,6 +151,7 @@ const LandingPage: React.FC = () => {
             height={40}
           />,
           <Image
+            key="docker"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Docker-svgrepo-com.svg/640px-Docker-svgrepo-com.svg.png"
             alt="Docker Logo"
             className="w-auto h-auto"
@@ -143,6 +159,7 @@ const LandingPage: React.FC = () => {
             height={40}
           />,
           <Image
+            key="kubernetes"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/640px-Kubernetes_logo_without_workmark.svg.png"
             alt="Kubernetes Logo"
             className="w-auto h-auto"
