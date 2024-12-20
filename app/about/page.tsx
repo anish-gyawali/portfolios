@@ -23,7 +23,7 @@ const AboutPage: React.FC = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1.2, delay: 0.5 }}
         >
-          I'm a passionate Full Stack Developer with expertise in creating
+          I&apos;m a passionate Full Stack Developer with expertise in creating
           high-quality web applications, cloud-based solutions, and databases.
           With a strong focus on continuous learning and growth, I aim to
           deliver impactful solutions in every project I undertake.
@@ -46,7 +46,7 @@ const AboutPage: React.FC = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1.2, delay: 0.5 }}
         >
-          I am the founder of{" "}
+          {"I am the founder of "}
           <a
             href="https://www.linkedin.com/company/billora/"
             target="_blank"
@@ -55,8 +55,7 @@ const AboutPage: React.FC = () => {
           >
             Billora Tech
           </a>
-          , a technology services startup dedicated to delivering innovative
-          solutions.
+          {", a technology services startup dedicated to delivering innovative solutions."}
         </motion.p>
         <motion.div
           initial={{ opacity: 0 }}

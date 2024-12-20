@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { FaGithub, FaLinkedin, FaDownload } from "react-icons/fa";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 type StackCategory = "frontend" | "backend" | "databases" | "cloud";
 
@@ -20,99 +21,133 @@ const LandingPage: React.FC = () => {
     switch (stack) {
       case "frontend":
         return [
-          <img
-            src="https://cdn.simpleicons.org/react/61DAFB"
+          <Image
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png"
             alt="React Logo"
-            className="w-10 h-10"
+            width={40}
+            height={40}
+            className="w-auto h-auto"
           />,
-          <img
+          <Image
             src="https://img.icons8.com/fluent-systems-filled/512/FFFFFF/nextjs.png"
             alt="Next.js Logo"
-            className="w-10 h-10"
+            width={40}
+            height={40}
+            className="w-auto h-auto"
           />,
-          <img
-            src="https://cdn.simpleicons.org/angular/DD0031"
+          <Image
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/640px-Angular_full_color_logo.svg.png"
             alt="Angular Logo"
-            className="w-10 h-10"
+            width={40}
+            height={40}
+            className="w-auto h-auto"
           />,
-          <img
-            src="https://cdn.simpleicons.org/ionic/3880D3"
+          <Image
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ionic-logo-landscape.svg/640px-Ionic-logo-landscape.svg.png"
             alt="Ionic Logo"
-            className="w-10 h-10"
+            width={40}
+            height={40}
+            className="w-auto h-auto"
           />,
         ];
       case "backend":
         return [
-          <img
+          <Image
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/640px-Node.js_logo.svg.png"
             alt="Node.js Logo"
-            className="w-10 h-10"
+            width={40}
+            height={40}
+            className="w-auto h-auto"
           />,
-          <img
+          <Image
             src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png?20180210215736"
             alt="C# Logo"
-            className="w-10 h-10"
+            width={40}
+            height={40}
+            className="w-auto h-auto"
           />,
-          <img
+          <Image
             src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/800px-Java_programming_language_logo.svg.png"
             alt="Java Logo"
-            className="w-10 h-10"
+            width={40}
+            height={40}
+            className="w-auto h-auto"
           />,
-          <img
+          <Image
             src="https://www.ispirer.net/images/asp.net.logo.png"
             alt="ASP.NET Logo"
-            className="w-10 h-10"
+            width={40}
+            height={40}
+            className="w-auto h-auto"
           />,
-          <img
-            src="https://cdn.simpleicons.org/spring/6DB33F"
+          <Image
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Spring_boot.jpg/640px-Spring_boot.jpg"
             alt="Spring Boot Logo"
-            className="w-10 h-10"
+            width={40}
+            height={40}
+            className="w-auto h-auto"
           />,
         ];
       case "databases":
         return [
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/5968/5968364.png"
+          <Image
+            src="https://upload.wikimedia.org/wikipedia/commons/6/69/Microsoft_SQL_Server_Logo.png?20080623103336"
             alt="SQL server Logo"
-            className="w-10 h-10"
+            width={40}
+            height={40}
+            className="w-auto h-auto"
           />,
-          <img
-            src="https://www.pngall.com/wp-content/uploads/13/Mongodb-PNG-Image-HD.png"
+          <Image
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Mongodb-svgrepo-com.svg/640px-Mongodb-svgrepo-com.svg.png"
             alt="MongoDB Logo"
-            className="w-10 h-10"
+            width={40}
+            height={40}
+            className="w-auto h-auto"
           />,
-          <img
-            src="https://cdn.simpleicons.org/oracle/FF0000"
+          <Image
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Oracle_logo.svg/640px-Oracle_logo.svg.png"
             alt="Oracle Logo"
-            className="w-10 h-10"
+            width={40}
+            height={40}
+            className="w-auto h-auto"
           />,
-          <img
-            src="https://w7.pngwing.com/pngs/785/736/png-transparent-sybase-hd-logo.png"
+          <Image
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Sybase_logo_full.svg/640px-Sybase_logo_full.svg.png"
             alt="Sybase Logo"
-            className="w-10 h-10"
+            width={40}
+            height={40}
+            className="w-auto h-auto"
           />,
         ];
       case "cloud":
         return [
-          <img
+          <Image
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Microsoft_Azure_Logo.svg/1280px-Microsoft_Azure_Logo.svg.png"
             alt="Azure Logo"
-            className="w-10 h-10"
+            className="w-auto h-auto"
+            width={40}
+            height={40}
           />,
-          <img
+          <Image
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1280px-Amazon_Web_Services_Logo.svg.png"
             alt="AWS Logo"
-            className="w-10 h-10"
+            className="w-auto h-auto"
+            width={40}
+            height={40}
           />,
-          <img
-            src="https://cdn.simpleicons.org/docker/2496ED"
+          <Image
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Docker-svgrepo-com.svg/640px-Docker-svgrepo-com.svg.png"
             alt="Docker Logo"
-            className="w-10 h-10"
+            className="w-auto h-auto"
+            width={40}
+            height={40}
           />,
-          <img
-            src="https://cdn.simpleicons.org/kubernetes/326CE5"
+          <Image
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/640px-Kubernetes_logo_without_workmark.svg.png"
             alt="Kubernetes Logo"
-            className="w-10 h-10"
+            className="w-auto h-auto"
+            width={40}
+            height={40}
           />,
         ];
       default:
@@ -130,7 +165,7 @@ const LandingPage: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          Hi, I'm Anish Gyawali
+          {"Hi, I'm Anish Gyawali"}
         </motion.h1>
         <motion.p
           className="text-xl sm:text-2xl font-light mb-8"
@@ -138,8 +173,9 @@ const LandingPage: React.FC = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1.2, delay: 0.5 }}
         >
-          A passionate Full Stack Developer, Problem Solver, and Tech
-          Enthusiast.
+          {
+            "A passionate Full Stack Developer, Problem Solver, and Tech Enthusiast."
+          }
         </motion.p>
         <motion.div
           className="flex justify-center gap-8 mb-8"
@@ -230,9 +266,9 @@ const LandingPage: React.FC = () => {
           Ready to Build the Future?
         </h2>
         <p className="text-lg font-light mb-6">
-          Let's collaborate to create amazing software that makes an impact.
-          Whether it's web development, cloud technologies, or problem-solving,
-          I'm ready to take on new challenges.
+          Let&apos;s collaborate to create amazing software that makes an
+          impact. Whether it&apos;s web development, cloud technologies, or
+          problem-solving, I&apos;m ready to take on new challenges.
         </p>
         <Link href="/about" passHref>
           <motion.button

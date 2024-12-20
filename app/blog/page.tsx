@@ -9,6 +9,7 @@ interface BlogPost {
   link: string;
   pubDate: string;
   contentSnippet: string;
+  thumbnail: string;
 }
 
 const BlogPage: React.FC = () => {
@@ -26,7 +27,9 @@ const BlogPage: React.FC = () => {
           title: item.title,
           link: item.link,
           pubDate: new Date(item.pubDate).toLocaleDateString(),
-          contentSnippet: item.description.replace(/<[^>]*>?/gm, "").substring(0, 200),
+          contentSnippet: item.description
+            .replace(/<[^>]*>?/gm, "")
+            .substring(0, 200),
         }));
         // Only keep the 6 most recent posts
         setPosts(mediumPosts.slice(0, 6));
@@ -78,7 +81,7 @@ const BlogPage: React.FC = () => {
         <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {posts.map((post, index) => (
             <motion.div
-              key={index}
+              key={post.title || index}
               className="bg-secondary p-6 rounded-lg shadow-lg"
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
